@@ -1,0 +1,33 @@
+
+public class ExampletTest {
+
+	public static void main(String[] args) {
+		String strval1 = "인평고";
+		String strval2 = "인평고";
+		
+		String strval3 = "김요셉";
+		String strval4 = "이민준";
+		
+		if(strval1 == strval2) {
+			System.out.println("strvall과 strval2는 참조가 같음");
+		}else {
+			System.out.println("strvall과 strval2는 참조가 다름");
+			
+		}
+		
+		if(strval1.equals(strval2)){
+			System.out.println("문자열이 같음");
+		}else {
+			System.out.println("strval1과 strval2는 다름");
+		}
+		
+		
+		if(strval3 == strval4) {
+			System.out.println("strval3과 strval4는 참조가 같음");
+		}else {	
+			System.out.println("strval3과 strval4는 참조가 다름");
+		}
+
+	}
+
+}
