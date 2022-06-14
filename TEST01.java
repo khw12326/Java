@@ -2,14 +2,14 @@
 public class TEST01 {
 
 	public static void main(String[] args) {
-		int[]a = {10,20,30};
-		a[0]=30;
-		a[1]=20;
-		a[2]=10;
-		System.out.println(a[0]);
-		System.out.println(a[1]);
-		System.out.println(a[2]);
-
+		int[][]arr= {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+		for(int i=0; i<3; i++) {
+			for(int j=0; j<4; j++) {
+				System.out.println(arr[i][j]+"");
+			}
+			System.out.println("");
+		}
+	
 	}
 
 }
