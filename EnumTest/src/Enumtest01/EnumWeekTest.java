@@ -13,8 +13,7 @@ public class EnumWeekTest {
 		switch(day) {
 		case 1:
 			today=Week.Sunday;
-			break;
-			
+			break;			
 		case 2:
 			today=Week.Monday;
 			break;
